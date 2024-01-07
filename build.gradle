@@ -1,0 +1,24 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.mockito:mockito-core:4.2.0'
+        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath 'androidx.test.ext:junit:1.1.5@aar'
+        classpath 'org.mockito:mockito-core:3.12.4'
+        classpath 'androidx.test:core:1.5.0@aar'
+        classpath 'androidx.test.ext:junit:1.1.5@aar'
+// https://mvnrepository.com/artifact/org.mockito/mockito-android
+        //runtimeOnly group: 'org.mockito', name: 'mockito-android', version: '3.9.7'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        //testImplementation("org.mockito:mockito-core:3.12.4")
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

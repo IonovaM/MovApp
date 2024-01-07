@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_movie"
+        android:icon="@drawable/ic_movie"
+        android:iconTint="@color/white"
+        android:title="Фильмы"/>
+
+    <item
+        android:id="@+id/nav_series"
+        android:icon="@drawable/ic_serials"
+        android:iconTint="@color/white"
+        android:title="Сериалы"/>
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search"
+        android:iconTint="@color/white"
+        android:title="Поиск"/>
+
+    <item
+        android:id="@+id/nav_favourites"
+        android:icon="@drawable/ic_favourite_outlined"
+        android:iconTint="@color/white"
+        android:title="Избранное"/>
+
+</menu>
